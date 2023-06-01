@@ -1,0 +1,30 @@
+
+source
+    text
+    id+
+    favorite_count+
+    entities
+        symbols
+       text hastags+
+            text
+    retweet_count++
+    user:
+        verified
+        followers_count
+        friends_count
+        favourites_count
+    direct_replies + ali id
+reply
+    text
+    id
+    favorite_count
+    entities
+        symbols
+        hastags
+            text
+    retweet_count
+    user:
+        verified
+        followers_count
+        friends_count
+        favourites_count
